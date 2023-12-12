@@ -36,7 +36,7 @@ calculate_CFC <- function(bpmn) {
   if(nrow(gw) > 0) {
 
   gw_types <- gw$objectType %>% unique()
-  gw_ids <- gw %>% filter(gatewayDirection == "diverging") %>% distinct(objectType, id)
+  gw_ids <- gw %>% filter(gatewayDirection == "Diverging") %>% distinct(objectType, id)
 
   seqs_ids <- seqs %>% select(sourceRef)
   gateways_as_source <- left_join(gw_ids, seqs_ids, by = c("id" = "sourceRef"))

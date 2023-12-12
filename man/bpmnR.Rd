@@ -18,6 +18,7 @@ Authors:
 
 Other contributors:
 \itemize{
+  \item Ivan Esin [contributor]
   \item Hasselt University [copyright holder]
 }
 

@@ -1,9 +1,9 @@
-e4d7c2e181380637d5a191d78f892a9a *DESCRIPTION
+b09911495957cec4fe2c664480b8685f *DESCRIPTION
 6bcc064cab52c77d6fbb28eba5035dd6 *LICENSE
-dcaa429a08823e50d3d804d14593beda *NAMESPACE
+675795b696bebeede07971b4eddb2b5e *NAMESPACE
 be359e834a9bdb61ab296ced9adbfba3 *R/bpmnR.R
-ae0a8af3b208ef3514883933c0e30517 *R/calculate_CFC.R
-db9af7e62113ecb67af82609aa746c85 *R/create_bpmn.R
+2abf7d235b0bd1cdcfea33217f74eb33 *R/calculate_CFC.R
+cbe491efbe47017952e1456744f8e6d9 *R/create_bpmn.R
 0a8f145d6a32aa774498745fdf788d94 *R/create_xml.R
 74a4e72f698c76b71065da276bc80822 *R/create_xml2.R
 bfb407a8af812dd1c8060d1ecba0f8cd *R/ex_bpmn_dataset/ex_dataset.R
@@ -11,7 +11,7 @@ bfb407a8af812dd1c8060d1ecba0f8cd *R/ex_bpmn_dataset/ex_dataset.R
 fd09bbc4fe10e7a545e27dd909d2dddf *R/get_layout.R
 276590b6c01cd058ac132953399a390b *R/get_layout2.R
 b90022868188154bf6031e2fc545a134 *R/layout_utils.R
-deac9617ac38230b52c2b468a8a5daa4 *R/print_bpmn.R
+b4e4238ade605a08bb36a39bc2cc09a4 *R/print_bpmn.R
 0aeb2eb8b3eb932fa0e44b8b09f2532a *R/render_bpmn.R
 27b0d4a7325e29e911665774ed9310c6 *R/write_bpmn.R
 8b4a58fc322aa8a6c117cfe1a0ef7a1d *README.md
@@ -19,7 +19,7 @@ deac9617ac38230b52c2b468a8a5daa4 *R/print_bpmn.R
 e2d952fb3284cfd85c387842f3183e75 *data/bpmn_instance.rda
 450cd6119e566ec9d2433eecc4caaa6e *inst/doc/introduction_to_bpmnR.R
 d3962b489f0f7ceda19e0cd81682f0b2 *inst/doc/introduction_to_bpmnR.Rmd
-1fdd32edfb5a49476e5eeeec16a86d37 *inst/doc/introduction_to_bpmnR.html
+1d02d3f195a292510b1da34b21df17be *inst/doc/introduction_to_bpmnR.html
 33f27090f4e3cfb4a9cdcb0afcb97306 *inst/htmlwidgets/lib/bpmn-js-8.3.1/CHANGELOG.md
 10d2f13a29da2290ad2d5927818d132f *inst/htmlwidgets/lib/bpmn-js-8.3.1/LICENSE
 b6f3b7e154970f567bdda8eb3b361c13 *inst/htmlwidgets/lib/bpmn-js-8.3.1/README.md
@@ -37,7 +37,7 @@ c1a98d04b4bff2ac836d1a380e769232 *inst/htmlwidgets/lib/bpmn-js-8.3.1/dist/bpmn-v
 453c5675308bb24b632868863a099f9f *inst/htmlwidgets/lib/bpmn-js-8.3.1/package.json
 e71a6a3676586b48ceb6f67392b2fb11 *inst/htmlwidgets/render_bpmn.js
 a50d20d0cfe0dee8915da918f7a40f3b *inst/htmlwidgets/render_bpmn.yaml
-5380fe6052acb42bf85b211da56d315b *man/bpmnR.Rd
+71d33de3ec4fcc9056a95113feba7b7f *man/bpmnR.Rd
 f0cba2ba0fa7625815e86b75ca06f11e *man/calculate_CFC.Rd
 5674f4299e9e0e5c0ab56833403d7798 *man/create_bpmn.Rd
 eec15db0ed2887f6e187b1f707f9ab7d *man/create_xml.Rd

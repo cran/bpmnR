@@ -21,8 +21,6 @@
 #' @importFrom purrr map_lgl
 #' @importFrom purrr compose
 #' @importFrom purrr as_mapper
-#' @importFrom assertive assert_is_data.frame
-#' @importFrom assertive is_non_empty
 #' @importFrom knitr combine_words
 #'
 #' @examples
@@ -69,9 +67,9 @@ create_bpmn <-
 
 
     # Checks if arguments are data.frames
-    assertive::assert_is_any_of(nodes, c("data.frame", "tbl_df"))           # assert_is_data.frame(tasks)
-    assertive::assert_is_any_of(events, c("data.frame", "tbl_df"))   # assert_is_data.frame(sequenceFlows)
-    assertive::assert_is_any_of(flows, c("data.frame", "tbl_df"))        # assert_is_data.frame(gateways)
+    # assertive::assert_is_any_of(nodes, c("data.frame", "tbl_df"))           # assert_is_data.frame(tasks)
+    # assertive::assert_is_any_of(events, c("data.frame", "tbl_df"))   # assert_is_data.frame(sequenceFlows)
+    # assertive::assert_is_any_of(flows, c("data.frame", "tbl_df"))        # assert_is_data.frame(gateways)
 
     nodes <- as.data.frame(nodes)
     events <- as.data.frame(events)
@@ -202,19 +200,19 @@ create_bpmn <-
   }
 
 # Checks per BPMN element if required attributes are present
-.check.for.minimal.subset.attributes <-
-  function(bpmn,
-           minimal_subset_attributes_list,
-           singular_of_bpmn_elements) {
-    bpmn %>%
-      map(~ names(.x)) %>%
-      keep(is_non_empty) %>%
-      imap(
-        ~ .compare.attributes(
-          .x,
-          .y,
-          minimal_subset_attributes_list,
-          singular_of_bpmn_elements
-        )
-      )
-  }
+# .check.for.minimal.subset.attributes <-
+#   function(bpmn,
+#            minimal_subset_attributes_list,
+#            singular_of_bpmn_elements) {
+#     bpmn %>%
+#       map(~ names(.x)) %>%
+#       keep(is_non_empty) %>%
+#       imap(
+#         ~ .compare.attributes(
+#           .x,
+#           .y,
+#           minimal_subset_attributes_list,
+#           singular_of_bpmn_elements
+#         )
+#       )
+#   }
